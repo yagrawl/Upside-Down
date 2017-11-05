@@ -1,0 +1,24 @@
+.overflow {
+    overflow-x: hidden;
+}
+
+/* Importing all the fonts with weights */
+@font-face {
+    font-family: Draw Sketch;
+    src: url(fonts/KGLifeisMessy.ttf);
+    font-weight: 100;
+}
+
+.letters {
+    font-family: 'Draw Sketch';
+    font-size: 48px;
+    font-weight: 200;
+    color: #190C05;
+}
+
+.main-area {
+	margin-top: 100px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
