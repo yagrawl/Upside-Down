@@ -1,2 +1,5 @@
 # Upside-Down
-Stranger Things inspired disappearing messages in the light
+
+Stranger Things Season 1 inspired disappearing messages in the light. Work in progress.
+
+Creating this to practice web app development.
