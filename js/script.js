@@ -17,8 +17,10 @@ function setup() {
 var i = 0;                     
 
 function main() {
-	let word = document.getElementById("message").value;
+	  let word = document.getElementById("message").value;
+    word = word.replace(/[^a-zA-Z]/g, '');
    	word = word.toUpperCase(); 
+    console.log(word);
    	setTimeout(function () {  
    		
    		if(i !== 0) {
