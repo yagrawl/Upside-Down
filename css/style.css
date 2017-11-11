@@ -1,6 +1,17 @@
 .overflow {
     overflow-x: hidden;
+    max-width: 650px;
+    margin: 3vh auto;
 }
+
+@media screen and (max-width: 620px) {
+    .overflow {
+        overflow-x: hidden;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+}
+
 
 /* Importing all the fonts with weights */
 @font-face {
@@ -22,22 +33,20 @@ p {
 
 .letter {
     font-family: 'Draw Sketch';
-    font-size: 56px;
+    font-size: 5vw;
     font-weight: 200;
     color: #190C05;
 }
 
 .letter-active {
     font-family: 'Draw Sketch';
-    font-size: 56px;
+    font-size: 5vw;
     font-weight: 200;
     color: #E80000;
 }
 
 .main-area {
-	margin-top: 100px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-top: 20px;
 	text-align: center;
 }
 
@@ -63,13 +72,12 @@ input::placeholder {
 }
 
 .button-container {
-    margin-top: 30px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin: 30px;
     text-align: center;
 }
 
 .button {
+    margin: 10px auto;
     background-color: #E80000;
     border: none;
     color: white;
