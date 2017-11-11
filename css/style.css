@@ -11,7 +11,7 @@
 
 .letters {
     font-family: 'Draw Sketch';
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 200;
     color: #190C05;
 }
@@ -21,4 +21,9 @@
 	margin-left: 20%;
 	margin-right: 20%;
 	text-align: center;
+}
+
+body {
+    background-image: url("../img/bg1.png");
+    background-color: #cccccc;
 }
