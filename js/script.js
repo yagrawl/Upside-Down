@@ -17,13 +17,22 @@ function setup() {
 var i = 0;                     
 
 function main() {
-   	let word = "Strange"; 
+	let word = document.getElementById("message").value;
    	word = word.toUpperCase(); 
    	setTimeout(function () {  
-   		let curr_letter = document.getElementById(word[i]);
-   		curr_letter.className = "letter-active";
-    	i++;                     
-    	if (i < word.length) {          
+   		
+   		if(i !== 0) {
+   			let prev_letter = document.getElementById(word[i - 1]);
+   			prev_letter.className = "letter";
+   		}
+
+   		if(i !== word.length) {
+   			let curr_letter = document.getElementById(word[i]);
+   			curr_letter.className = "letter-active";
+   		}
+
+    	i++;    
+    	if (i <= word.length) {          
     		main();     
     	}                       
    	}, 1000);

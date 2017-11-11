@@ -9,8 +9,15 @@
     font-weight: 100;
 }
 
+@font-face {
+    font-family: Proxima Nova;
+    src: url(fonts/ProximaNovaThin.otf);
+    font-weight: 100;
+}
+
 p {
     display: inline;
+    margin: 0 15px 0 15px;
 }
 
 .letter {
@@ -34,6 +41,27 @@ p {
 	text-align: center;
 }
 
+input:focus {
+    outline-width: 0;
+}
+
+input::placeholder {
+    opacity: 0.3;
+}
+
+.message {
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Proxima Nova;
+    background-color: white;
+}
+
 .button-container {
     margin-top: 30px;
     margin-left: 40%;
@@ -53,6 +81,6 @@ p {
 }
 
 body {
-    background-image: url("../img/bg1.png");
+    /*background-image: url("../img/bg1.png");*/
     background-color: #cccccc;
 }
