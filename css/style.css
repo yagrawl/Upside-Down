@@ -9,11 +9,22 @@
     font-weight: 100;
 }
 
-.letters {
+p {
+    display: inline;
+}
+
+.letter {
     font-family: 'Draw Sketch';
     font-size: 56px;
     font-weight: 200;
     color: #190C05;
+}
+
+.letter-active {
+    font-family: 'Draw Sketch';
+    font-size: 56px;
+    font-weight: 200;
+    color: #E80000;
 }
 
 .main-area {
@@ -21,6 +32,24 @@
 	margin-left: 20%;
 	margin-right: 20%;
 	text-align: center;
+}
+
+.button-container {
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+}
+
+.button {
+    background-color: #E80000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 body {
