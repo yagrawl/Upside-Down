@@ -36,6 +36,9 @@ function main() {
     	i++;    
     	if (i <= word.length) {          
     		main();     
-    	}                       
+    	}
+      else {
+        i = 0;
+      }                       
    	}, 1000);
 }

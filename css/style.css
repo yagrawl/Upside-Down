@@ -1,10 +1,10 @@
 .overflow {
     overflow-x: hidden;
-    max-width: 650px;
+    max-width: 680px;
     margin: 3vh auto;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 680px) {
     .overflow {
         overflow-x: hidden;
         margin-left: 1vh;
